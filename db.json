@@ -1,46 +1,18 @@
 {
   "data": [
     {
-      "name": "nisfu",
-      "email": "nisfu@gm.co",
-      "phone": "091384",
+      "name": "rifqi",
+      "email": "rifqi@gmail.com",
+      "phone": "09217342",
       "active": true,
       "id": 1
-    },
+    }
+  ],
+  "users": [
     {
-      "name": "rifqi",
-      "email": "rifqi@gm.co",
-      "phone": "0293432",
-      "active": true,
-      "id": 2
-    },
-    {
-      "name": "ardi",
-      "email": "ardi@gmail.com",
-      "phone": "032743",
-      "active": true,
-      "id": 3
-    },
-    {
-      "name": "jhone",
-      "email": "jhone@ads.a",
-      "phone": "082423",
-      "active": true,
-      "id": 4
-    },
-    {
-      "name": "joni",
-      "email": "joni@ga.s",
-      "phone": "0812",
-      "active": true,
-      "id": 5
-    },
-    {
-      "name": "jono",
-      "email": "jono@sdf.sdf",
-      "phone": "012834",
-      "active": true,
-      "id": 6
+      "id": "nisfu",
+      "email": "nisfu@a.a",
+      "pwd": "nisfu12345"
     }
   ]
 }

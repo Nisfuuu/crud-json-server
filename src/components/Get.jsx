@@ -40,11 +40,12 @@ const Get = (id) => {
   }, []);
 
   return (
-    <div>
-      <Link to="/data/create" className="btn btn-success ">
-        create (+)
-      </Link>
-      <div className="mt-2">
+    <div className="mt-9">
+      <div className="flex m-auto w-1/5 btn btn-success">
+        <Link to="/data/create">create (+)</Link>
+      </div>
+
+      <div className="mt-2 flex justify-center">
         <table className="table text-center">
           <thead className="table-dark  ">
             <tr>
@@ -76,7 +77,7 @@ const Get = (id) => {
                       onClick={() => {
                         RemoveFunction(item.id);
                       }}
-                      className="btn btn-danger mx-1"
+                      className="btn btn-error mx-1"
                     >
                       delete
                     </button>

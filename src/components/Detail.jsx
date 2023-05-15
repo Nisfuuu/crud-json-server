@@ -18,21 +18,19 @@ const Edit = () => {
       });
   }, []);
   return (
-    <div>
-      <div>
-        <h2>create data</h2>
-      </div>
+    <div className="flex justify-center mt-16">
       {data && (
-        <div className="card">
-          <div className="card-header">No: {data.id}</div>
+        <div className="card w-96 bg-primary text-primary-content">
           <div className="card-body">
             <h2 className="card-title">Name is : {data.name}</h2>
-            <h5 className="card-text">contact Details</h5>
-            <p className="card-text">Email is: {data.email}</p>
-            <p className="card-text">contact is: {data.phone}</p>
-            <Link to="/data" className="btn btn-secondary">
-              back to Dashboard
-            </Link>
+            <p>Details id: {data.id}</p>
+            <p>Email is: {data.email}</p>
+            <p>contact is: {data.phone}</p>
+            <div className="card-actions justify-end">
+              <button className="btn">
+                <Link to="/data">back to Dashboard</Link>
+              </button>
+            </div>
           </div>
         </div>
       )}
